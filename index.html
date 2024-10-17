@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="name email@gmail.com">
+    <meta name="robots" content="indexfollow" />
+    <meta name="keywords" content="your tags" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Práctica bloque 3</title>
+    <script>
+        function Mensaje(){
+        var nombre = document.getElementById('nombre').value;
+        var apellidos = document.getElementById('apellidos').value;
+            alert('Benvingut'+ nombre + apellidos  )
+    }
+    </script>
+</head>
+<body>
+    <h1 class="blue">Pŕactica bloque 3</h1>
+    <p>
+        Introduce tu nombre <input type="text" id="nombre"> 
+        Introduce apellidos <input type="text" id="apellidos" onchange="Mensaje()">
+    </p>
+    
+</body>
+</html>
